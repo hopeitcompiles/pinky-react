@@ -1,0 +1,19 @@
+.spinner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.spinning{
+    margin: 10% auto 0px;
+    animation: spinning 1s linear infinite;
+}
+.spinner a{
+    margin: 15px auto 0px;
+    font-size: x-large;
+    font-weight: 1000;
+}
+@keyframes spinning {
+    to{
+        transform: rotate(360deg);
+    }
+}

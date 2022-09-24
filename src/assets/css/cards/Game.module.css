@@ -1,0 +1,15 @@
+.frame{
+    width: 100%;
+    height: min-content;
+}
+.loading{
+    height: 60px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.container_game{
+    max-height: 80vh;
+}
+

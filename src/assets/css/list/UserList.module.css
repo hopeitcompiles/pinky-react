@@ -1,0 +1,12 @@
+.container_card{
+	width: 90%;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content:center;
+    margin: 0px auto;
+	padding: 0px;
+}
+
+.multiple_select{
+    
+}

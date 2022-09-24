@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.container{
+  width: 75ch;
+  height: 70vh;
+}
+figure.card {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 0px auto;
+  width: 95%;
+  height: 100%;
+  background: #ffffff;
+  color: #000000;
+}
+figure.card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.card .image {
+  width: 60%;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+figure.card .image img {
+  position: relative;
+  display: block;
+  z-index: 1;
+  -webkit-transform: skew(25deg);
+  transform: skew(25deg);
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  padding: 0 50px 50px;
+}
+figure.card:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 45%;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transform: skewX(-17deg);
+  transform: skewX(-17deg);
+  -webkit-box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+}
+figure.card figcaption {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 100%;
+}
+figure.card figcaption h2,
+figure.card figcaption p {
+  margin: 0;
+  text-align: right;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.card figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.card figcaption h2 span {
+  font-weight: 800;
+}
+figure.card figcaption p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.card figcaption .icons {
+  width: 100%;
+  text-align: right;
+}
+figure.card figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: #000000;
+  opacity: 0;
+}
+figure.card figcaption a {
+  opacity: 0.3;
+}
+figure.card figcaption a:hover {
+  opacity: 0.8;
+}
+figure.card .position {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  padding: 15px 30px;
+  font-size: 0.9em;
+  opacity: 1;
+  font-style: italic;
+  color: #ffffff;
+  background: #000000;
+}
+figure.card.blue .position {
+  background: #20638f;
+}
+figure.card.red .position {
+  background: #962d22;
+}
+figure.card.yellow .position {
+  background: #bf6516;
+}
+figure.card:hover figcaption,
+figure.card.hover figcaption {
+  bottom: 40px;
+}
+figure.card:hover .icons i,
+figure.card.hover .icons i {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.card:hover:before,
+figure.card.hover:before {
+  -webkit-animation: shadow 0.6s ease-in-out;
+  animation: shadow 0.6s ease-in-out;
+}
+@-webkit-keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
