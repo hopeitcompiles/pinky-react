@@ -1,5 +1,5 @@
 const API_VERSION=''
-const HOST=`http://localhost:5000/`
+const HOST=`https://www.api.pinkytest.com/`
 const BASE_URL=`${HOST}${API_VERSION}`
 const BASE_APP_URL=`${BASE_URL}app/`
 const BASE_IMAGE_URL=`${BASE_APP_URL}image/`
