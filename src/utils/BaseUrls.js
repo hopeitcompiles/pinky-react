@@ -1,4 +1,4 @@
-const API_VERSION='api/v1/'
+const API_VERSION=''
 const HOST=`http://localhost:5000/`
 const BASE_URL=`${HOST}${API_VERSION}`
 const BASE_APP_URL=`${BASE_URL}app/`

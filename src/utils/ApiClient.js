@@ -23,7 +23,7 @@ const getElementsAsPageableList = async (page,search,path) => {
 
 
 const whoAmI = async () => { 
-    const response = axios.get(`${base_url}users/whoami`).then(result => result)
+    const response = axios.get(`${base_url}private/whoami`).then(result => result)
     return response
 }
 
